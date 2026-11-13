@@ -28,7 +28,12 @@ Webcam hand-tracking air drawing & dual-canvas AI rendering studio powered by **
   - Local ComfyUI (`127.0.0.1:8188`)
   - Offline Demo Simulation fallback
 
-## Quick Start
+## One-Click Setup & Launch
+
+- **Windows:** Double-click [`Kur_ve_Baslat.bat`](./Kur_ve_Baslat.bat) (or [`Kiosk_Baslat.bat`](./Kiosk_Baslat.bat) for fullscreen kiosk mode). Automatically checks/installs Node.js via `winget`, prepares `.env`, installs dependencies, builds `dist/`, and launches `http://localhost:3001`.
+- **macOS / Linux:** Run `./kurulum.sh`.
+
+## Manual Quick Start (Dev Mode)
 
 ```bash
 npm install

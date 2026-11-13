@@ -15,6 +15,16 @@
 
 ## 2. Kurulum ve Çalıştırma
 
+### Tek Tıkla Kurulum ve Başlatma (Önerilen — Windows)
+
+Projeyi indirdikten sonra klasörün içindeki şu dosyalardan birine **çift tıklamanız** yeterlidir:
+
+- **`Kur_ve_Baslat.bat`**: Node.js yoksa `winget` üzerinden otomatik kurar, `.env` dosyasını oluşturur (isterseniz `GEMINI_API_KEY` girmenizi ister, boş bırakırsanız Demo moduyla açar), `npm install` + `npm run build` adımlarını tamamlar ve uygulamayı `http://localhost:3001` adresinde tarayıcıda açar.
+- **`Kiosk_Baslat.bat`**: Aynı tek tık kurulumu tamamlayıp tarayıcıyı doğrudan **tam ekran Kiosk modunda (`--kiosk`)** başlatır.
+- **macOS / Linux için:** Terminalde `./kurulum.sh` çalıştırabilirsiniz.
+
+### Manuel Kurulum (Geliştirici Modu)
+
 ### Adım 1: Bağımlılıkları Yükleyin
 
 ```bash
